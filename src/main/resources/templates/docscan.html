@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Document Scanning Demo</title>
+        <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/>
+        <link rel="stylesheet" th:href="@{/css/main.css}"/>
+    </head>
+
+    <body>
+        <main role="main" class="container">
+            <div class="starter-template">
+                <h1>Document Scanning Demo</h1>
+                <div>
+                    <h2>Which Vendor?</h2>
+                </div>
+                <div class="btn-group">
+                    <button onclick="location.href='/authenticid/verify?phone='">AutehnticID</button>
+                    <button onclick="location.href='/continue?page=authenticid'">TrustStamp</button>
+                    <button onclick="location.href='/continue?page=authenticid'">Acuant</button>
+                    <button onclick="location.href='/continue?page=authenticid'">Mitek</button>
+                </div>
+            </div>
+        </main>
+        <script type="text/javascript" th:src="@{webjars/bootstrap/4.2.1/js/bootstrap.min.js}"></script>
+    </body>
+</html>

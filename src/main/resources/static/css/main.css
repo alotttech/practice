@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:#0000FF;
+}
+
+h2{
+    color:#FF0000;
+}
+
+h3{
+    color:#00FF00;
+}
+
+div.wrapper { float:left;}
+div.wrapper label { float: left; width: 49%; text-align: right; }
+div.wrapper span { float: right; width: 49%; text-align: left; }
+div.clearboth { clear: both }
+
+.starter-template {
+    padding: 3rem 3rem;
+    text-align: center;
+    width:100%;
+    height:100%;"
+}
+
+.btn-individual button {
+    margin-top:24px;
+    margin:0px auto;
+    text-align: center;
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 12px 12px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 30%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button {
+    margin:0px auto;
+    text-align: center;
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
